@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Letter from Santa!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id = "centerSanta">
+      <h1 class = "stylize"> Happy Holidays! </h1>
+      <h2 class = "stylize"> From Santa Claus </h2>
+      <h3> And of course all the elves! </h3>
+      <p> We are missing you from the <span id = "text"> North Pole.</span> </p>
+      <a href="https://santatracker.google.com/santaselfie.html"> Selfie from Santa </a> <br><br>
+      <button type="button" onclick="myFunction()"> Click to hear a message from Santa!</button> 
+    </div>
+    <audio id="myAudio">
+      <source src="santavoice.mp3" type="audio/mpeg">
+    </audio>
+    <img id="elf" class="resize" src="babyelf.jpg" alt="Elf" onclick="this.src='babysantahat.jpg'">
+    <!-- pexels.com -->
+    <!-- Photo by J carter from Pexels -->
+    <script src="script.js"></script>
+  </body>
+</html>

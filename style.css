@@ -1,0 +1,46 @@
+/* # - id */
+#centerSanta {
+  text-align: center
+}
+/* . - class */
+.stylize {
+  font-family: fantasy;
+}
+
+body {
+  background-color: #f0fff1;
+}
+
+#text {
+  color: blue;
+  font-size: 30px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.resize{
+  max-width: 20%;
+  max-height: 20%
+}
+
+#elf{
+  position: relative;
+  animation: mymove 25s infinite;
+}
+
+@keyframes mymove {
+  0% {top:-300px; left: 200px;}
+  45% {top: -300px; left: 1000px;}
+  50% {top: 50px; left: 1000px;}
+  95% {top: 50px; left: 200px;}
+  100% {top: -300px; left: 200px;}
+}
